@@ -158,8 +158,8 @@ export class RuleBasedAnalytics {
       return insights; // Return empty array if insufficient data
     }
 
-    const recentMeals = daysWithMealData.flatMap(c => c.meals || []);
-    const recentSnacks = daysWithMealData.flatMap(c => c.snacks || []);
+    //const recentMeals = daysWithMealData.flatMap(c => c.meals || []);
+    //const recentSnacks = daysWithMealData.flatMap(c => c.snacks || []);
     
     // Meal consistency analysis (only for days with data)
     const mealsPerDay = daysWithMealData.map(c => (c.meals || []).length);
