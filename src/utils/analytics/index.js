@@ -1,0 +1,1 @@
+export { RuleBasedAnalytics, generatePetInsights } from './RuleBasedAnalytics';
